@@ -10,5 +10,7 @@
 #import "LCItemModel.h"
 
 @interface LCItemCell : UICollectionViewCell
+
 @property (nonatomic, strong) UIImageView *imageView;
+
 @end

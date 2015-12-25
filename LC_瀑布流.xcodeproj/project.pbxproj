@@ -71,7 +71,7 @@
 		58FF75161C229FA3003734AC /* LC____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "LC____UITests.m"; sourceTree = "<group>"; };
 		58FF75181C229FA3003734AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58FF75241C22A475003734AC /* LCItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCItemCell.h; sourceTree = "<group>"; };
-		58FF75251C22A475003734AC /* LCItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCItemCell.m; sourceTree = "<group>"; };
+		58FF75251C22A475003734AC /* LCItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LCItemCell.m; path = "../LC_瀑布流/LCItemCell.m"; sourceTree = "<group>"; };
 		58FF75281C22A713003734AC /* MKAnnotationView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKAnnotationView+WebCache.h"; sourceTree = "<group>"; };
 		58FF75291C22A713003734AC /* MKAnnotationView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKAnnotationView+WebCache.m"; sourceTree = "<group>"; };
 		58FF752A1C22A713003734AC /* NSData+ImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ImageContentType.h"; sourceTree = "<group>"; };
@@ -167,7 +167,6 @@
 				58FF74F71C229FA3003734AC /* ViewController.h */,
 				58FF74F81C229FA3003734AC /* ViewController.m */,
 				58FF75241C22A475003734AC /* LCItemCell.h */,
-				58FF75251C22A475003734AC /* LCItemCell.m */,
 				58FF755C1C22AA14003734AC /* LCItemModel.h */,
 				58FF755D1C22AA14003734AC /* LCItemModel.m */,
 				58FF74FA1C229FA3003734AC /* Main.storyboard */,
@@ -190,6 +189,7 @@
 		58FF750A1C229FA3003734AC /* LC_瀑布流Tests */ = {
 			isa = PBXGroup;
 			children = (
+				58FF75251C22A475003734AC /* LCItemCell.m */,
 				58FF750B1C229FA3003734AC /* LC____Tests.m */,
 				58FF750D1C229FA3003734AC /* Info.plist */,
 			);

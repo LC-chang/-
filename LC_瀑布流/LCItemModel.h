@@ -10,6 +10,7 @@
 #import <UIKit/UIKit.h>
 
 @interface LCItemModel : NSObject
+
 @property (nonatomic, strong) NSString *imageUrl;
 
 @property (nonatomic, assign) CGSize imageSize;
